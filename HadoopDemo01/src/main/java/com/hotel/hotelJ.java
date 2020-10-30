@@ -13,13 +13,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * @author scz
  * @date 2020/10/13
- * 版本2
+ * 版本3
  */
 public class hotelJ {
     public static void main(String[] args) throws  Exception{
         Configuration cof=new Configuration();
         Job job=Job.getInstance(cof);
-        System.out.println("你真帅");
+        System.out.println("cszcszcsz");
         //设置三个类
         job.setMapperClass(hotelM.class);
         job.setReducerClass(hotelR.class);
